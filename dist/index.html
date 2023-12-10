@@ -205,10 +205,33 @@
         <br>
         <h1 class="text-3xl  text-center">La tua casa attende solo TE</h1> <br><br>
 
-        <button type="submit" class="w-[80%] bg-red-700 text-white font-semibold text-lg p-4 shadow-md shadow-black border-2 border-black hover:scale-105 hover:shadow-lg hover:shadow-black transition-all md:w-[60%]">Voglio un appuntamento</button>
+        <button type="submit" onclick="effettuaChiamata()" class="w-[80%] bg-red-700 text-white font-semibold text-lg xl:text-xl 2xl:text-2xl p-4 shadow-md shadow-black border-2 border-black hover:scale-105 hover:shadow-lg hover:shadow-black transition-all md:w-[60%] lg:w-[50%] max-w-[550px] ">Voglio un appuntamento</button>
     
+<br><br><br><br>
+        
+
+
+        
     </div>
+    
+    
+    <div class="w-[100%] bg-[#14191e] p-12 text-white flex flex-col text-center md:flex-row justify-between font-semibold">
+      <ul class="md:w-1/3 py-2">Email: segreteria@premiahome.it</ul>
+      <ul class="md:w-1/3 py-2">P.IVA: 06024760875</ul>
+      <ul class="md:w-1/3 py-2">Indirizzo: Viale ionio 35, Catania</ul>
+    </div>
+    
+    
+    <script>
+          function effettuaChiamata() {
+          
+            window.location.href = "tel:+0952274123";
+          }
+
+        </script>
+
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
     <script>
       AOS.init();
   </script>
