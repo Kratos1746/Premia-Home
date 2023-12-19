@@ -544,14 +544,6 @@ video {
   position: absolute;
 }
 
-.relative {
-  position: relative;
-}
-
-.left-0 {
-  left: 0px;
-}
-
 .top-0 {
   top: 0px;
 }
@@ -859,10 +851,6 @@ video {
   padding-top: 1.5rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -1135,10 +1123,6 @@ video {
     font-size: 20px;
   }
 
-  .xl\:text-\[24px\] {
-    font-size: 24px;
-  }
-
   .xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1197,20 +1181,8 @@ video {
     font-size: 24px;
   }
 
-  .\32xl\:text-\[30px\] {
-    font-size: 30px;
-  }
-
-  .\32xl\:text-\[28px\] {
-    font-size: 28px;
-  }
-
   .\32xl\:text-\[40px\] {
     font-size: 40px;
-  }
-
-  .\32xl\:text-\[42px\] {
-    font-size: 42px;
   }
 
   .\32xl\:leading-10 {
