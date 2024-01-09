@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="output.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap" rel="stylesheet">
 
-  <!-- Facebook Pixel Code -->
+<!-- Meta Pixel Code -->
 <script>
   !function(f,b,e,v,n,t,s)
   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -14,55 +17,61 @@
   if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
   n.queue=[];t=b.createElement(e);t.async=!0;
   t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
-   fbq('init', '367752488957682'); 
-  fbq('track', 'PageView');
+  fbq('init', '896276052136407');
+  fbq('track', 'PageView'); 
   fbq('track', 'Contact');
   </script>
-  <noscript>
-   <img height="1" width="1" 
-  src="https://www.facebook.com/tr?id=367752488957682&ev=PageView
-  &noscript=1"/>
-  </noscript>
-  <!-- End Facebook Pixel Code -->
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=896276052136407&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
 </head>
 
 
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden font-Grotesk tracking-wide">
   <div id="section1" class="min-h-screen bg-back bg-center bg-cover flex flex-col items-center justify-center w-[100%] m-auto ">
 
     <!-- Logo at the beginning -->
-    <img src="/img/logo-ombra.png" alt="" class="w-[60%] mb-4 absolute top-0 animate-dasopra delay-100 max-w-[300px]">
+    <img src="/dist/img/logo-ombra.png" alt="" class="w-[60%] mb-4 absolute top-0 animate-dasopra delay-100 max-w-[380px]">
 
     <!-- Text centered -->
     <div class="flex-col justify-center items-center w-[90%] text-white animate-dasopra delay-100">
-        <h1 class="text-4xl text-center font-semibold md:text-5xl xl:text-6xl 2xl:text-7xl">Costruisci la casa dei tuoi sogni..</h1>
+        <h1 class=" text-4xl min-[400px]:text-5xl text-center font-semibold md:text-5xl xl:text-6xl 2xl:text-[82px] uppercase">Costruisci la casa dei tuoi sogni..</h1>
         <br>
-        <h1 class="text-xl text-center md:text-2xl xl:text-3xl 2xl:text-4xl">…E sii il primo proprietario in assoluto</h1>
+        <h1 class="text-xl min-[400px]:text-2xl text-center md:text-2xl xl:text-3xl 2xl:text-4xl">…E sii il primo proprietario in assoluto</h1>
     </div>
 
 </div>
 
-<div id="section2" class="min-h-full bg-green-800   w-[100%] py-8 xl:py-12 ">
+<div id="section2" class="min-h-full bg-green-800 shadow-md shadow-black   w-[100%] py-8 xl:py-12 ">
 
-    <h1 class="text-xl text-center mx-2 text-white lg:text-2xl xl:text-3xl  ">Vivi il sogno della tua casa ideale, come <b>primo</b> proprietario. Immagina, progetta e arreda l’appartamento a piacere <b>tuo</b>. </h1>
+    <h1 class="text-xl md:text-2xl text-center mx-8 text-white lg:text-2xl xl:text-4xl   ">Vivi il sogno della tua casa ideale, come <b>primo</b> proprietario. Immagina, progetta e arreda l’appartamento a piacere <b>tuo</b>. </h1>
     
+  
+</div>  <div class=" my-10"> 
+  <h2 class="text-2xl sm:text-4xl text-center mt-6 mx-8  md:text-4xl xl:text-5xl font-semibold tracking-wide uppercase">Anteprima progetto</h2>
+    <div class="flex justify-center mt-6">
+   <img src="/dist/img/down-black.svg" alt="" class="h-8 md:h-10 lg:h-12  animate-bounce">
+  </div>
 </div>
-<img src="/img/collage.jpg" alt="" class="2xl:hidden lg:max-h-[750px] w-[100%]">
-<img src="/img/collage 1440.jpg" alt="" class="2xl:block hidden w-[100%] max-h-[750px]">
+<div class="relative w-full min-h-full flex object-cover items-center justify-start border-y-2 border-black"data-aos="fade-in" data-aos-duration="800" data-aos-once="true" data-aos-delay="200" >
+<img src="/dist/img/collage 1440-2.jpg" alt="" class=" max-md:hidden  w-1/2  object-contain">
+<img src="/dist/img/collage 1440.jpg" alt="" class=" max-md:hidden  border-l-2  border-black w-1/2  object-contain">
+<img src="/dist/img/collage.jpg" alt="" class="md:hidden">
+</div>
 
-
-<div id="section3" class="min-h-screen flex-1 w-[90%] m-auto my-14">
+<div id="section3" class="min-h-screen flex-1 w-[90%] m-auto my-14 overflow-x-hidden">
   
     <h1 class="text-4xl font-semibold md:text-5xl xl:text-6xl">Quando “casa, dolce casa” diventa realtà..</h1> <br><br>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
       <div class="lg:order-1">
           
-          <p class="text-base xl:text-[20px] leading-8 2xl:text-[24px] 2xl:leading-10 ">Il palazzo, articolato su 4 piani, è concepito per massimizzare il tuo <b>comfort</b>. <br> <br>
+          <p class="text-base md:text-lg xl:text-[20px] leading-8 2xl:text-[24px] 2xl:leading-10 ">Il palazzo, articolato su 4 piani, è concepito per massimizzare il tuo <b>comfort</b>. <br> <br>
 
               Situato in via Mariani, San Giovanni Galermo, Catania, garantisce un accesso rapido a: </p><br> <br>
-              <div class="xl:text-[20px] leading-8 ">
+              <div class="md:text-lg xl:text-[20px] leading-8 ">
               <li>Farmacie</li> <br>
               <li>Scuole (materna, elementare e medie)</li> <br>
               <li>Negozi di alimentari</li><br>
@@ -71,43 +80,43 @@
               <li>Palestre e campi da calcio</li><br>
               <li>Fermate dei mezzi pubblici (circa 3-5 minuti a piedi)</li><br><br>
               </div>
-              <p class="xl:text-[20px] leading-8 2xl:text-[24px] 2xl:leading-10">Ogni appartamento include un <b>posto auto coperto</b> assegnato, accessibile tramite ascensore diretto dalla casa.</p>
+              <p class="md:text-lg xl:text-[20px] leading-8 2xl:text-[24px] 2xl:leading-10">Ogni appartamento include un <b>posto auto coperto</b> assegnato, accessibile tramite ascensore diretto dalla casa.</p>
       </div>
       <div class="lg:order-2 flex  items-center h-full">
-          <img src="/img/prospetto.PNG" alt="" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-delay="600"  class="shadow-lg lg:shadow-xl lg:shadow-black shadow-black">
+          <img src="/dist/img/prospetto.PNG" alt="" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300"  class="shadow-lg lg:shadow-xl lg:shadow-black shadow-black">
       </div>
   </div>
   <br>
 <div class="py-8">
-  <h1 class="text-4xl font-semibold mt-8 xl:text-5xl">Tecnologie, modernità ed innovazione</h1> <br><br>
+  <h1 class="text-4xl font-semibold lg:text-right mt-8 md:text-5xl xl:text-6xl">Tecnologie, modernità ed innovazione</h1> <br><br>
 
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
     
     <div class="flex items-center lg:order-2">
         
-        <p class="text-base xl:text-[20px] leading-8 2xl:text-[24px] 2xl:leading-10">Che ci si voglia vivere tutta la vita, o che si voglia lasciare in eredità, la casa è un investimento a lungo termine. L’edificio è costruito con materiali di ottima qualità, resistenti e duraturi, arricchito dall’implementazione di strumenti tecnologici all’avanguardia, come <b>l’ascensore</b> di ultima generazione, <b>sistemi di sorveglianza</b> selezionati e <b>fotovoltaico</b> con una capacità di 1.50 kWp per appartamento <br> <br>
+        <p class="text-base  md:text-lg xl:text-[20px] leading-8 2xl:text-[24px] 2xl:leading-10">Che ci si voglia vivere tutta la vita, o che si voglia lasciare in eredità, la casa è un investimento a lungo termine. L’edificio è costruito con materiali di ottima qualità, resistenti e duraturi, arricchito dall’implementazione di strumenti tecnologici all’avanguardia, come <b>l’ascensore</b> di ultima generazione, <b>sistemi di sorveglianza</b> selezionati e <b>fotovoltaico</b> con una capacità di 1.50 kWp per appartamento <br> <br>
         </p>
     </div>
     <div>
-        <img src="/img/casa pannelli.jpg" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-delay="600" class="shadow-lg lg:shadow-xl shadow-black lg:shadow-black" >
+        <img src="/dist/img/casa pannelli.jpg" alt="" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300" class="shadow-lg lg:shadow-xl shadow-black lg:shadow-black" >
     </div>
 </div>
  </div>
  <br><br>
 
-  <h1 class="text-4xl font-semibold mt-8 xl:text-5xl">Casa=Famiglia</h1> <br><br>
-  <p class="text-base xl:text-[20px] leading-8 2xl:text-[24px] 2xl:leading-10">La <b>casa</b> è da sempre un concetto strettamente legato alla <b>famiglia</b>. Ogni appartamento è concepito per giovani coppie o famiglie da 4 componenti, garantendo ad ognuno i propri spazi. Inoltre, le attività in zona permettono ai tuoi attuali, o futuri, figli di poter frequentare sport e scuola senza dover andare particolarmente lontano da casa. 
+  <h1 class="text-4xl font-semibold mt-8 md:text-5xl xl:text-6xl">Casa = Famiglia</h1> <br><br>
+  <p class="text-base md:text-lg xl:text-[20px] leading-8 2xl:text-[24px] 2xl:leading-10">La <b>casa</b> è da sempre un concetto strettamente legato alla <b>famiglia</b>. Ogni appartamento è concepito per giovani coppie o famiglie da 4 componenti, garantendo ad ognuno i propri spazi. Inoltre, le attività in zona permettono ai tuoi attuali, o futuri, figli di poter frequentare sport e scuola senza dover andare particolarmente lontano da casa. 
       <br> <br>
   </p>
-</div>
+
 
           
           <div class="flex justify-center">
-          <img src="/img/famiglia.jpg" alt="" class="w-[60%] md:max-w-[380px]">
+          <img src="/dist/img/famiglia.jpg" alt="" class="w-[60%] md:max-w-[350px] xl:max-w-[380px]">
           </div>
-    </div>
+   </div>
 
-    <h1 class="text-4xl text-center bg-red-700 text-white font-semibold my-8 p-4 shadow-lg shadow-black md:text-5xl md:p-8 xl:p-12" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">Data di rilascio dell’immobile: Dicembre 2025</h1>
+    <h1 class="text-4xl uppercase text-center bg-red-700 text-white font-semibold my-8 px-4 py-6 shadow-lg shadow-black md:text-5xl lg:text-6xl md:p-8 xl:py-10" data-aos="fade-up" data-aos-delay="250" data-aos-duration="800" data-aos-once="true">Data di rilascio dell’immobile: Dicembre 2025</h1>
 
     <div id="section4" class="min-h-screen  w-[90%] m-auto border-b border-black ">
 
@@ -115,8 +124,8 @@
       <br><br>
       <h1 class="text-4xl text-center xl:text-5xl font-semibold">ALT! ⚠️</h1> <br> <br>
       <h1 class="text-3xl xl:text-4xl">So che stai pensando…</h1> <br>
-      <p class="text-base lg:text-lg xl:text-xl"><i>“Perché dovrei acquistare una casa che sarà pronta nel 2025?”</i> </p> <br><br>
-      <p class="text-lg lg:text-xl text-center xl:text-2xl">Qui trovi le risposte<span class="animate-bounce absolute pl-2 lg:text-2xl">⬇️</span> </p><br>
+      <p class="text-base md:text-lg xl:text-xl"><i>“Perché dovrei acquistare una casa che sarà pronta nel 2025?”</i> </p> <br><br>
+      <p class="text-lg md:text-xl text-center xl:text-2xl">Qui trovi le risposte<span class="animate-bounce absolute pl-2 lg:text-2xl">⬇️</span> </p><br>
       
       <br>
       <div class="max-w-md mx-auto mt-4  p-2 md:text-lg xl:max-w-2xl xl:text-xl 2xl:text-2xl ">
@@ -132,31 +141,31 @@
             <tr>
               <td class="pb-2 pt-6  text-red-700 font-bold">X</td>
               <td class="pb-2 pt-6 pr-2 border-r border-black mx-4"> Documenti non <br>sempre  a regola</td>
-              <td class="pb-2 pt-6 pl-2"><span class="text-green-700 font-bold">✔</span> </td>
+              <td class="pb-2 pt-6 pl-4"><span class="text-green-700 font-bold">✔</span> </td>
               <td class="pb-2 pt-6 pl-4"> Documenti a norma </td>
             </tr>
             <tr>
               <td class="pb-2 pt-6  text-red-700 font-bold">X</td>
               <td class="py-2 pr-2 border-r border-black"> Spese per la ristrutturazione</td>
-              <td class="pb-2 pt-6 pl-2"><span class="text-green-700 font-bold">✔</span> </td>
+              <td class="pb-2 pt-6 pl-4"><span class="text-green-700 font-bold">✔</span> </td>
               <td class="py-2 pl-4"> 1° proprietario </td>
             </tr>
             <tr>
               <td class="pb-2 pt-6  text-red-700 font-bold">X</td>
               <td class="py-2 pr-2 border-r border-black"> Nessuna garanzia</td>
-              <td class="pb-2 pt-6 pl-2"><span class="text-green-700 font-bold">✔</span> </td>
+              <td class="pb-2 pt-6 pl-4"><span class="text-green-700 font-bold">✔</span> </td>
               <td class="py-2 pl-4"> Pagamenti frazionati nel tempo </td>
             </tr>
             <tr>
               <td class="py-2 pr-2"></td>
               <td class="py-2 pr-2 border-r border-black"></td>
-              <td class="pb-2 pt-6 pl-2"><span class="text-green-700 font-bold">✔</span> </td>
+              <td class="pb-2 pt-6 pl-4"><span class="text-green-700 font-bold">✔</span> </td>
               <td class="py-2 pl-4"> Garanzie per te e la tua famiglia </td>
             </tr>
             <tr>
               <td class="py-2 pr-2 "></td>
               <td class="py-2 pr-2 border-r border-black"></td>
-              <td class="pb-2 pt-6 pl-2"><span class="text-green-700 font-bold">✔</span> </td>
+              <td class="pb-2 pt-6 pl-4"><span class="text-green-700 font-bold">✔</span> </td>
               <td class="py-2 pl-4"> Tecnologie e materiali all’avanguardia </td>
             </tr>
           </tbody>
@@ -170,9 +179,9 @@
     <h1 class="text-xl xl:text-2xl mt-8 ">Gli appartamenti hanno una metratura che varia tra <b>77 mq</b> e <b>85 mq</b>. Inoltre alcuni di questi hanno degli spazi esterni, come <b>balconi</b> o <b>terrazzini</b>. Queste caratteristiche fanno oscillare il prezzo dell’immobile tra i 140k e i 150k.</h1>
   </div>
   <br><br>
-  <div class="bg-red-700 text-white shadow-lg shadow-black p-8">
-    <h1 class="text-3xl xl:text-4xl   text-center  2xl:text-[40px] 2xl:p-10 ">Ma con un anticipo da 5k potrai decidere quale casa acquistare… e pagare il resto <b>frazionato nel tempo</b></h1> 
-    <p class="text-lg text-center leading-7 py-4 lg:text-xl xl:text-2xl ">Le modalità di pagamento saranno personalizzate e concordate con il costruttore nella nostra agenzia.</p> 
+  <div class="bg-red-700 text-white shadow-lg shadow-black px-5 py-10">
+    <h1 class="text-4xl xl:text-5xl   text-center    ">Ma con un anticipo da 5k potrai decidere quale casa acquistare… e pagare il resto <b>frazionato nel tempo</b></h1> 
+   <br> <p class="text-xl text-center leading-7 py-4 lg:text-2xl xl:text-3xl ">Le modalità di pagamento saranno personalizzate e concordate con il costruttore nella nostra agenzia.</p> 
 </div>
 <br>
   <div id="section5" class="min-h-full  w-[90%] m-auto  py-12 border-b border-black ">
@@ -194,26 +203,26 @@
 
 <div id="section7" class=" min-h-full flex flex-col  w-[90%] m-auto mb-4">
 
-  <h1 class="text-4xl  text-center font-semibold mt-8 md:text-5xl 2xl:text-6xl">Premia Home</h1>
+  <h1 class="text-4xl min-[400px]:text-5xl  text-center font-semibold mt-10 md:text-6xl xl:text-7xl uppercase">Premia Home</h1>
   <br>
   <h1 class="text-xl  text-center lg:text-2xl xl:text-3xl">L’agenzia giusta per te</h1> <br><br> <br>
-  <p class="text-base lg:text-xl 2xl:text-2xl">A differenza delle altre agenzie immobiliari, la maggioranza della nostra società appartiene ad una <b>S.p.A.</b> <br><br>
+  <p class="text-base md:text-lg lg:text-xl 2xl:text-2xl">A differenza delle altre agenzie immobiliari, la maggioranza della nostra società appartiene ad una <b>S.p.A.</b> <br><br>
 
     Possediamo tutti gli strumenti e <b>servizi</b> che ci permettono di seguire i nostri clienti a 360°. <br><br>
     
     La nostra società non si occupa solamente di immobiliare, ma prestiamo anche servizi di <b>creditizia</b>.</p> <br> <br>
   </div>
-    <div class="flex items-center bg-green-800 text-center font-semibold justify-center w-[100%] min-h-full p-4 shadow-lg shadow-black md:p-8 md:text-2xl xl:text-3xl" data-aos="fade-down" data-aos-duration="800" data-aos-once="true" data-aos-delay="500">
+    <div class="flex items-center bg-green-800 text-center font-semibold justify-center w-[100%] min-h-full p-4 shadow-lg shadow-black md:p-8 md:text-2xl xl:text-3xl" data-aos="fade-down" data-aos-duration="800" data-aos-once="true" data-aos-delay="350">
       <h1 class="text-xl md:text-2xl m-2 w-[33%] text-white leading-10 md:leading-10">Assistenza <br> 24/24</h1>
       <h1 class="text-xl md:text-2xl m-2 w-[33%] text-white leading-10 md:leading-10">Lavoriamo <br> 6/7</h1>
       <h1 class="text-xl md:text-2xl m-2 w-[33%] text-white leading-10 md:leading-10">Personale <br> 10+</h1>
       
     </div>
     <br><br>
-    <div id="section8" class=" min-h-full flex flex-col w-[90%] items-center m-auto mb-16">
+    <div id="section8" class=" min-h-full flex flex-col w-[90%] items-center mx-auto mb-24">
     <h1 class="text-3xl text-center font-semibold py-4 xl:text-4xl 2xl:text-5xl 2xl:py-8">Il nostro obiettivo è rendere l’acquisto della tua casa un momento che non potrai dimenticare…</h1> <br>
 <br>
-    <p class="text-base lg:text-xl 2xl:text-2xl">Ascoltiamo attentamente le tue esigenze, ti affianchiamo e ti aiutiamo a realizzare, con <b>serenità</b>, uno dei passi più grandi della tua vita. <br><br>
+    <p class="text-base md:text-lg lg:text-xl 2xl:text-2xl">Ascoltiamo attentamente le tue esigenze, ti affianchiamo e ti aiutiamo a realizzare, con <b>serenità</b>, uno dei passi più grandi della tua vita. <br><br>
 
       Oltre a mettere a disposizione le nostre competenze per indicarti la scelta migliore per te e la tua famiglia, possiamo seguirti anche con la richiesta del mutuo. <br><br>
       
@@ -224,14 +233,13 @@
 
       
 
-        <h1 class="text-2xl text-center mt-8 xl:text-4xl font-medium">Prenota il tuo appuntamento e visita insieme a noi il progetto per il tuo immobile. </h1> <br><br>
+        <h1 class="text-2xl md:text-3xl text-center mt-8 xl:text-4xl font-semibold">Prenota il tuo appuntamento e visita insieme a noi il progetto per il tuo immobile. </h1> <br><br>
         <br>
         <h1 class="text-3xl  text-center">La tua casa attende solo TE</h1> <br><br>
 
         <button type="submit" onclick="effettuaChiamata()" class="w-[80%] bg-red-700 text-white font-semibold text-lg xl:text-xl 2xl:text-2xl p-4 shadow-md shadow-black border-2 border-black hover:scale-105 hover:shadow-lg hover:shadow-black transition-all md:w-[60%] lg:w-[50%] max-w-[550px] ">Voglio un appuntamento</button>
     
-<br><br><br><br>
-        
+
 
 
         

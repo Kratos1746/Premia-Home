@@ -88,9 +88,18 @@ module.exports = {
     
   },
     extend: {backgroundImage: {
-      'back': "url('/img/sfondo home.jpg')",
+      'back': "url('/dist/img/sfondo home2.jpg')",
       
     },},
+
+    fontFamily: {
+      lora: ['Lora', 'serif'],
+      Montserrat:['Montserrat','serif'],
+      Unna:['Unna','serif'],
+      Merriweather:['Merriweather','serif'],
+      Ayer:['Ayer','serif'],
+      Grotesk:['Familjen Grotesk', 'sans-serif'],
+    },
   },
   plugins: [],
 }
