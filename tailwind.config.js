@@ -88,7 +88,7 @@ module.exports = {
     
   },
     extend: {backgroundImage: {
-      'back': "url('/dist/img/sfondo home2.jpg')",
+      'back': "url('img/sfondo home2.jpg')",
       
     },},
 
